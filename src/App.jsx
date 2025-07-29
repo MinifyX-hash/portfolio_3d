@@ -9,6 +9,7 @@ import {
   Works,
   Feedbacks,
   StarsCanvas,
+  Footer,
 } from "./components"
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <Footer />
     </BrowserRouter>
   )
 }
